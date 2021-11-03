@@ -29,7 +29,7 @@ function App() {
     if (ProductExist.quantity === 1) {
       setCartItems(cartItems.filter((item) => item.id !== product.id))
     } else {
-      setCartItems(cartItems.map((item) => item.id === product.id ? {...ProductExist, quantity: ProductExist.quantity - 1} : item))
+      setCartItems(cartItems.map((item) => item.id === product.id ? { ...ProductExist, quantity: ProductExist.quantity - 1 } : item))
     }
 
   }

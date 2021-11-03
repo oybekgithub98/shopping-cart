@@ -14,8 +14,8 @@
   }
   .btn-container {
     margin-bottom: 4rem;
-    display: flex;
-    justify-content: center;
+    display: flex;;
+    justify-content: center; 
   }
   .filter-btn {
     background: transparent;
@@ -46,6 +46,8 @@
     display: grid;
     gap: 1rem 2rem;
     max-width: 25rem;
+    padding: 15px;
+    box-shadow: 2px 2px 7px 0.2px rgb(184, 184, 184);
   }
   .photo {
     object-fit: cover;
@@ -70,6 +72,20 @@
     margin-bottom: 0;
     padding-top: 1rem;
   }
+
+  @media screen and (min-width: 250px) {
+    .btn-container > button {
+      margin: 0;
+      font-size: 12px;
+    }
+  }
+  @media screen and (min-width: 400px) {
+    .btn-container > button {
+      margin: 0 3px;
+      font-size: 15px;
+    }
+  }
+
   
   @media screen and (min-width: 768px) {
     .menu-item {
@@ -80,6 +96,10 @@
     .photo {
       height: 175px;
     }
+    .btn-container > button {
+      margin: 0 5px;
+      font-size: 20px;
+    }
   }
   @media screen and (min-width: 1200px) {
     .section-center {
@@ -88,6 +108,11 @@
     }
     .photo {
       height: 150px;
+    }
+    
+    .btn-container > button {
+      margin: 0 7px;
+      font-size: 21px;
     }
   }
   

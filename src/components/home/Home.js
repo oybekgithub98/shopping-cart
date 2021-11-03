@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className="home">
             <Carousel
-                
+
                 infiniteLoop={true}
                 slidesPerView={1}
                 showArrows={true}
@@ -15,8 +15,10 @@ const Home = () => {
                 autoPlay={true}
             >
                 <div className="home_image1" >
-                    <h1>Welcome!</h1>
-                    <p style={{ paddingTop: "30px" }}>If you want to know more about us then subscribe to our site. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos modi ipsum provident beatae officiis amet veritatis omnis!</p>
+                    <div className="home_sarlavha">
+                        <h1>Welcome!</h1>
+                        <p style={{ paddingTop: "30px" }}>If you want to know more about us then subscribe to our site. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos modi ipsum provident beatae officiis amet veritatis omnis!</p>
+                    </div>
 
                     <div className="card_wrapper">
                         <div className="image_card">
@@ -35,8 +37,10 @@ const Home = () => {
                 </div>
 
                 <div className="home_image2" >
-                    <h1>What do you want to find on the site</h1>
-                    <p style={{ paddingTop: "30px" }}>If you want to know more about us then subscribe to our site. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos modi ipsum provident beatae officiis amet veritatis omnis!</p>
+                    <div className="home_sarlavha">
+                        <h1>What do you want to find on the site</h1>
+                        <p style={{ paddingTop: "30px" }}>If you want to know more about us then subscribe to our site. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos modi ipsum provident beatae officiis amet veritatis omnis!</p>
+                    </div>
 
                     <div className="card_wrapper">
                         <div className="image_card">
@@ -55,8 +59,10 @@ const Home = () => {
                 </div>
 
                 <div className="home_image3" >
-                    <h1>What else do you like?</h1>
-                    <p style={{ paddingTop: "30px" }}>If you want to know more about us then subscribe to our site. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos modi ipsum provident beatae officiis amet veritatis omnis!</p>
+                    <div className="home_sarlavha">
+                        <h1>What else do you like?</h1>
+                        <p style={{ paddingTop: "30px" }}>If you want to know more about us then subscribe to our site. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos modi ipsum provident beatae officiis amet veritatis omnis!</p>
+                    </div>
 
                     <div className="card_wrapper">
                         <div className="image_card">
@@ -75,8 +81,10 @@ const Home = () => {
                 </div>
 
                 <div className="home_image4" >
-                    <h1>Want to know about us?</h1>
-                    <p style={{ paddingTop: "30px" }}>If you want to know more about us then subscribe to our site. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos modi ipsum provident beatae officiis amet veritatis omnis!</p>
+                    <div className="home_sarlavha">
+                        <h1>Want to know about us?</h1>
+                        <p style={{ paddingTop: "30px" }}>If you want to know more about us then subscribe to our site. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos modi ipsum provident beatae officiis amet veritatis omnis!</p>
+                    </div>
 
                     <div className="card_wrapper">
                         <div className="image_card">

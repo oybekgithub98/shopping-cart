@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Button } from "../button/Button";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { MdFingerprint } from "react-icons/md";
 import { IconContext } from "react-icons/lib";
 import "./Navbar.css";
 
@@ -23,8 +22,7 @@ const Navbar = ({ cartItems }) => {
                 <nav className="navbar">
                     <div className="navbar-container container">
                         <Link to="/products" className="navbar-logo" onClick={closeMobileMenu}>
-                            <MdFingerprint className="navbar-icon" />
-                            <span style={{ color: "#f54100" }}>S</span>
+                            <span style={{ color: "#f54100" }} className="s">S</span>
                             <span style={{ color: "#fa612a" }}>o</span>
                             <span style={{ color: "#ff7b4b" }}>g</span>
                             <span style={{ color: "#ff8e65" }}>i</span>

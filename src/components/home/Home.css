@@ -9,11 +9,18 @@
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 0 200px;
+}
+
+.home_sarlavha {
+    width: 80%;
+    max-width: auto;
+    margin: 0 auto;
 }
 
 .home_image1 {
     background-image: url("https://www.pcclean.io/wp-content/uploads/2020/4/iuEnim.jpg");
+    display: flex;
+    flex-direction: column;
 }
 
 .home_image2 {
@@ -74,4 +81,25 @@
     left: 0;
     opacity: 0;
     transition: all 0.5s;
+}
+
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .home_image1, .home_image2, .home_image3, .home_image4 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .home_image1, .home_image2, .home_image3, .home_image4, h1 {
+        font-size: 20px;
+        padding-top: 20px;
+        text-align: center;
+       
+    }
+    .home_image1, .home_image2, .home_image3, .home_image4, p {
+        font-size: 12px;
+    }
+
 }

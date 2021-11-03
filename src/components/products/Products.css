@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     background-color: #F1F5F8;
     border-radius: 5px;
+    justify-content: center;
 }
 
 .card {
